@@ -19,12 +19,11 @@ const NavBar = () => {
   return (
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       <div className="inner">
-        {/* Logo */}
+       
         <a href="#hero" className="logo">
           Shlok Agrahari
         </a>
 
-        {/* Navigation Links */}
         <nav className="desktop">
           <ul>
             {navLinks.map(({ link, name }) => (
@@ -38,10 +37,10 @@ const NavBar = () => {
           </ul>
         </nav>
 
-        {/* Buttons Row */}
+        
         <div className="flex items-center gap-4">
          <a
-  href="/resume.pdf" // Change to your actual file path
+  href="/resume.pdf" 
   download
   className="contact-btn group"
 >
