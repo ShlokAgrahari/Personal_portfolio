@@ -42,7 +42,22 @@ const TechStack = () => {
           title="How I Can Contribute & My Key Skills"
           sub="🤝 What I Bring to the Table"
         />
-        <div className="tech-grid">
+        <div
+  className="
+    grid
+    grid-cols-1
+    md:grid-cols-3
+    xl:grid-cols-3
+    gap-5
+    md:gap-10
+    xl:gap-16
+    mt-16
+    place-items-center
+    max-w-7xl
+    mx-auto
+  "
+>
+
           {/* Loop through the techStackIcons array and create a component for each item. 
               The key is set to the name of the tech stack icon, and the classnames are set to 
               card-border, tech-card, overflow-hidden, and group. The xl:rounded-full and rounded-lg 
